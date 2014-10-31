@@ -16,11 +16,11 @@ end
 
 # Always specify the version of your dependencies
 depends 'apt'
-depends 'ark',                '~> 0.4.0'
+depends 'ark',                '~> 0.4'
 depends 'apache2' # ,            "= 1.8.4'
 depends 'backup',             '~> 0.2.1'
 depends 'cron',               '~> 1.2.8'
-depends 'database',           '~> 1.5.2'
+depends 'database',           '~> 1.5', '>= 1.5.2'
 depends 'git',                '~> 2.7.0'
 depends 'java',               '~> 1.22.0'
 depends 'mysql',              '= 3.0.12'
